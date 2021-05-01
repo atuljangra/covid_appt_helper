@@ -2,8 +2,9 @@
 Utility to help with Covid appointments
 
 
-# Open iTerm
-# brew install pip
-# pip install requests
+# TDB
+Open iTerm
+brew install pip
+pip install requests
 
-# python3 parser.py
+python3 parser.py
