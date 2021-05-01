@@ -44,7 +44,7 @@ def get_apts_by_pin(pin_code=100, num_days=1):
                 # Check if appointment is actually available.
                 center_id_lists = response_json["centers"]
                 for center in center_id_lists:
-                    is_capacity_available_in_center(center, query_date)
+                    capacity_available_in_center(center, query_date)
                 ## TODO: Take a flag and show exact appointments here.
                 ## Might not be too useful as you need to go to cowin to book anyway.
             else:
